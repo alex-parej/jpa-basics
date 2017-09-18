@@ -21,8 +21,7 @@ public class Book {
     @Enumerated(EnumType.STRING)
     private Genre genre;
 
-    public Book(int id, String name, float price, int pages, String isbn, Genre genre) {
-        this.id = id;
+    public Book(String name, float price, int pages, String isbn, Genre genre) {
         this.name = name;
         this.price = price;
         this.pages = pages;
